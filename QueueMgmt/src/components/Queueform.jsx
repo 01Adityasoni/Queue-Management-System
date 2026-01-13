@@ -23,12 +23,12 @@ export default function Queueform({onAdd}){
                 type="text" />
             </div>
             <div className="form-group">
-                <select value={service} onChange={(e) => setService(e.target.value)}>
-                    <option value="">Select Service</option>
-                    <option value="Service A">Consultation</option>
-                    <option value="Service B">Payment</option>
-                    <option value="Service C">Customer Support</option>
-                </select>
+                    <select value={service} onChange={(e) => setService(e.target.value)}>
+                        <option value="">Select Service</option>
+                        <option value="Consultation">Consultation</option>
+                        <option value="Payment">Payment</option>
+                        <option value="Customer Support">Customer Support</option>
+                    </select>
             </div>
             <button type="submit">
                 <FaUserPlus /> Add Customer</button>
